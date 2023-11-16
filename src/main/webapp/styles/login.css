@@ -1,0 +1,55 @@
+.contentcenter{
+text-align:center;
+font-family:arial;
+font-size:18px;
+margin-top:150px;
+
+}
+.loginbutton,.regbutton{
+font-family:arial;
+font-size:18px;
+background-color: #a435f0;
+border: none;
+border-radius: 2px;
+height: 36px;
+width: 240px;
+cursor: pointer;
+margin-right: 8px ;
+margin-top:20px;
+color:white;
+}
+
+.regbutton{
+width:100px;
+background-color:white;
+color:black;
+border:1px solid #000;
+text-align:center;
+
+
+}
+
+.regbutton::hover{
+background-colour:black;
+}
+.textfield,.passfield{
+border-radius:4px;
+border-width:1px;
+height:24px;
+margin-top:8px;
+border: 1px solid #ccc;
+box-sizing: border-box;
+
+}
+span.psw {
+  float: center;
+  padding-top:16px;
+ 
+}
+.form{
+display:inline-block;
+}
+.forget{
+margin-top:20px;
+}
+
